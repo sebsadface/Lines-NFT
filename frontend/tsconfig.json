@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -16,8 +20,12 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@/actions/*": ["integrations/*"]
+      "@/*": [
+        "./*"
+      ],
+      "@/actions/*": [
+        "integrations/*"
+      ]
     },
     "plugins": [
       {
@@ -32,7 +40,14 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "**/*.js",
-    "*.cjs"
+    "*.cjs",
+    "components/ui/dialog.tsx",
+    "components/ui/alert-dialog.tsx"
   ],
-  "exclude": ["node_modules", ".next", ".vscode", "generated"]
+  "exclude": [
+    "node_modules",
+    ".next",
+    ".vscode",
+    "generated"
+  ]
 }

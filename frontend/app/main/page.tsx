@@ -30,7 +30,7 @@ export default function MainPage() {
 
       <div className="mt-20 content-center">
         <Link
-          href={"https://testnets.opensea.io/collection/" + linesAddress}
+          href={"https://testnets.opensea.io/assets/sepolia/" + linesAddress}
           target="_blank"
           rel="noreferrer noopenner"
           className={buttonVariants({ variant: "default" }) + " mx-2 my-2"}

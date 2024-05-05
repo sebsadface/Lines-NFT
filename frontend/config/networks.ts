@@ -71,15 +71,7 @@ export const ETH_CHAINS_TEST = [
 ]
 export const ETH_CHAINS_L2_TEST = [baseGoerli, optimismGoerli, arbitrumGoerli]
 export const ETH_CHAINS_PROD = [
-  mainnet,
-  optimism,
-  arbitrum,
-  polygon,
-  celo,
-  gnosis,
-  goerli,
-  base,
-  baseGoerli,
+  sepolia,
 ]
 export const ETH_CHAINS_DEV =
   env.NEXT_PUBLIC_PROD_NETWORKS_DEV === "true"

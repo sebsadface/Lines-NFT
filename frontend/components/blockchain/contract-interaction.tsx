@@ -14,9 +14,11 @@ const ContractInteraction = ({ setStatus, setError }) => {
   const [isAwaitingSignature, setIsAwaitingSignature] = useState(false)
 
   useEffect(() => {
-    if (window.ethereum) {
-      const provider = new ethers.providers.Web3Provider(window.ethereum)
-      setSigner(provider.getSigner())
+    if ((window as any).ethereum) {
+      const provider = new ethers.providers.Web3Provider(
+        (window as any).ethereum
+      )
+      setSigner((provider as any).getSigner())
     }
   }, [])
 

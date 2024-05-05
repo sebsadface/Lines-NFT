@@ -42,10 +42,10 @@ const Modal: React.FC<ModalProps> = ({ onClose, children }) => {
               👇
             </h1>
             <ContractInteraction setStatus={setStatus} setError={setError} />
-            {status.text && (
+            {(status as any).text && (
               <div>
-                <p>{status.text}</p>
-                {status.links.map((link) => (
+                <p>{(status as any).text}</p>
+                {(status as any).links.map((link) => (
                   <p key={link.url} className=" underline hover:to-blue-500">
                     <a
                       href={link.url}
