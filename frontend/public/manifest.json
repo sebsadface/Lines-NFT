@@ -1,0 +1,11 @@
+{
+  "theme_color": "#87CEEB",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Line",
+  "short_name": "Line",
+  "description": "A NFT Collection",
+  "icons": []
+}
