@@ -1,18 +1,18 @@
 # ✨ Lines NFT Collection ✨
  Lines is a NFT collection that consists of 10,000 unique, randomly generated SVG-based NFTs. Each NFT is registered as an IP on Story Protocol during the minting process.
 
- This project consists of two main components: a [Solidity smart contract](#smart-contract-description-📜) and a [simple nextjs web app](#frontend-web-app-description-🖥️)
+ This project consists of two main components: a [Solidity smart contract](#smart-contract-description-) and a [simple nextjs web app](https://github.com/sebsadface/24-swe-intern-exercise-seb/tree/main?tab=readme-ov-file#frontend-web-app-description-%EF%B8%8F)
 
 
 ## Table of Contents 📚
 
-- [Table of Contents 📚](#table-of-contents-📚)
-- [Live Demo 🚀](#live-demo-🚀)
-- [Smart Contract Description 📜](#smart-contract-description-📜)
-- [Frontend Web App Description 🖥️](#frontend-web-app-description-🖥️)
-- [Known Issues 🐞](#known-issues-🐞)
-- [Setup \& Usage 🛠](#setup--usage-🛠)
-- [Acknowledgements 🙏](#acknowledgements-🙏)
+- [Table of Contents 📚](#table-of-contents-)
+- [Live Demo 🚀](#live-demo-)
+- [Smart Contract Description 📜](#smart-contract-description-)
+- [Frontend Web App Description 🖥️](https://github.com/sebsadface/24-swe-intern-exercise-seb/tree/main?tab=readme-ov-file#frontend-web-app-description-%EF%B8%8F)
+- [Known Issues 🐞](#known-issues-)
+- [Setup \& Usage 🛠](#setup--usage-)
+- [Acknowledgements 🙏](#acknowledgements-)
 
 
 ## Live Demo 🚀
