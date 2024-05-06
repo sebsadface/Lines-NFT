@@ -38,12 +38,6 @@ $ forge snapshot
 $ anvil
 ```
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
 ### Cast
 
 ```shell
@@ -60,4 +54,4 @@ $ cast --help
 
 ## Acknowledgements
 
-This directory is build on top of Story Protocol's story-protocol-boilerplate repository.
+This directory is build on top of Story Protocol's [story-protocol-boilerplate repository](https://github.com/storyprotocol/story-protocol-boilerplate).

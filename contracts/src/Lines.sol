@@ -107,7 +107,7 @@ contract Lines is ERC721URIStorage, VRFConsumerBaseV2Plus, ReentrancyGuard {
 
     /**
      * @notice Requests initial randomness from Chainlink VRF to start the minting process.
-     * Call will revert if this function has already been called once.
+     * Call will revert if this function has already been called once, or if the caller is not the contract owner.
      * @dev Request randomness for the first minting operation in the contract.
      * Can only be called once by the contract owner to initialize randomness for the minting queue.
      * @return requestId The identifier of the Chainlink VRF request.

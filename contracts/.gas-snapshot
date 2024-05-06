@@ -1,0 +1,5 @@
+LineTest:testDuplicateRandomnessRequest() (gas: 166761)
+LineTest:testFailureOnMaxSupply() (gas: 2561882)
+LineTest:testInitialRandomnessRequest() (gas: 172954)
+LineTest:testMintWithUnfulfilledRandomness() (gas: 174066)
+LineTest:testrequestMint() (gas: 2516350)

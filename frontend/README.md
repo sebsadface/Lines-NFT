@@ -24,4 +24,4 @@ pnpm build
 
 # Acknowledgements
 
-Thanks to @wslyvh and [Kames Geraghty](https://twitter.com/KamesGeraghty) for the template.
+Orginal templates for this frontend: [TurboETH](https://github.com/turbo-eth/template-web3-app?tab=readme-ov-file)

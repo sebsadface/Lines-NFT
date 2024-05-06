@@ -3,12 +3,12 @@ pragma solidity ^0.8.23;
 
 import "forge-std/Test.sol";
 import "forge-std/console.sol";
-import {Line} from "../src/Line.sol";
+import {Lines} from "../src/Lines.sol";
 import {MockIPAssetRegistry} from "./mocks/MockIPAssetRegistry.sol";
 import {MockVRFCoordinatorV2Plus} from "./mocks/MockVRFCoordinatorV2Plus.sol";
 
 contract LineTest is Test {
-    Line line;
+    Lines line;
     MockVRFCoordinatorV2Plus vrfCoordinator;
     MockIPAssetRegistry ipAssetRegistry;
     address owner = address(1);
@@ -19,7 +19,7 @@ contract LineTest is Test {
 
         vm.startPrank(owner);
 
-        line = new Line(
+        line = new Lines(
             address(ipAssetRegistry),
             address(0), // Assuming the resolver is not used
             address(vrfCoordinator),
@@ -47,7 +47,7 @@ contract LineTest is Test {
         );
     }
 
-    function testMintingNFT() public {
+    function testrequestMint() public {
         vm.prank(owner);
         uint256 requestId = line.requestFirstRandomness();
 
